@@ -22,6 +22,7 @@ namespace IntegrationWebApp
             DataAccessManager dataAccessManager = new DataAccessManager();
             SqlConnection sqlConn = dataAccessManager.GetConnection(BalHelper.GetConnectionLive());
             DataTable queryResult = new DataTable();
+            Console.Write("");
             try
             {
                 // Prepare required parameters to be passed in the stored procedure   
